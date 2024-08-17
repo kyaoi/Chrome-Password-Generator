@@ -26,3 +26,25 @@ Chrome-Password-Generator is a simple and secure Chrome extension that helps you
 4. Click "Load unpacked" and select the folder where you downloaded/cloned this repository.
 
 5. The Chrome-Password-Generator extension should now appear in your list of extensions.
+
+## Usage
+
+1. Right-click anywhere on a webpage.
+
+2. Select "Generate Password" from the context menu.
+
+3. A popup will appear, allowing you to customize your password by including symbols, numbers, and setting the length.
+
+4. Click "Generate" to create the password. The generated password will be displayed and automatically copied to your clipboard.
+
+## Permissions
+
+- contextMenus: Allows the extension to add a custom option to the right-click menu.
+- clipboardWrite: Enables the extension to copy the generated password to the clipboard.
+- scripting: Allows the extension to inject scripts into the active webpage.
+- host_permissions: Grants the extension permission to work on any webpage.
+
+## Screenshots
+Below are screenshots demonstrating the extension's interface and functionality:
+
+![image](https://github.com/user-attachments/assets/bd334265-6d9c-4f6f-8230-fc6962b7bed2)
